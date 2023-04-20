@@ -15,8 +15,19 @@
     ],
     "require": {
         "php": "^8.0",
-        "joelbutcher/googleads": "^5.0.0"
+        "joelbutcher/googleads": "dev-patch-to-support-ads-api-13"
     },
+    
+      "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/prageeth-peiris/googleads"
+        }
+
+
+    ],
+    
     "autoload": {
         "psr-4": {
             "JoelButcher\\LaravelGoogleAds\\": "src/"
